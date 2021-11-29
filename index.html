@@ -1,0 +1,737 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Empower</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="1.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!--Chatbot-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    #popup {
+      display: none;
+      position: fixed;     
+      border: 2px solid #5c9f24;
+      z-index: 100;     
+    }
+
+    .popupfloat {
+      position: fixed;
+      bottom: 140px;
+      right: 40px;
+      box-shadow: 2px 2px 3px #999;
+    }
+
+    /* #bot {
+      position: absolute;
+      bottom: 50px;
+      right: 50px;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="./Empower Logos/1.png" id="logo_img" alt="" class="img-fluid"></a>
+
+      <h1 class="logo"><a href="index.html">Empower</a></h1>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Learn</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Treatment centers</a></li>
+          <li><a class="nav-link scrollto" href="#team">Offer Jobs</a></li>
+          <li class="dropdown"><a href="#"><span>Jobs</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="inner_paralyze.html">Paralyzed</a></li>
+              <li><a href="inner-page.html">Blind</a></li>
+              <li><a href="inner_deaf.html">Deaf</a></li>
+              <li><a href="inner-autism.html">Autism</a></li>
+              <li><a href="inner-demetia.html">Dementia</a></li>
+              <li><a href="inner-dylexia.html">Dyslexia</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active responsive" style="background: url(https://images.pexels.com/photos/2026764/pexels-photo-2026764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+          ">
+
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Know Treatments Near you</h2>
+                <p class="animate__animated animate__fadeInUp">Quickly know any treatment center near you
+                </p>
+                <div>
+                  <a href="#portfolio" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                    More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(https://wallpapercave.com/wp/wp3839479.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">About us</h2>
+                <p class="animate__animated animate__fadeInUp">Our mission to make this world accessible for everyone
+                </p>
+                <div>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+            <div class="carousel-background"><img
+                src="https://www.verywellhealth.com/thmb/vE4dIhpJ1ZEf-OfdNFWzkGZO_bQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1094158136-182616aa1c7a48a6b2c01cc94dab05e7.jpg"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Know more about these special people</h2>
+                <p class="animate__animated animate__fadeInUp">Know about different types of Disablities, there cure,
+                  awarness etc.</p>
+                <div>
+                  <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>About Us</h3>
+              <p>
+                Our mission is to make this world better for special people whose lives are a little difficult than
+                ours! :)
+
+              </p>
+              <div class="row">
+                <div class="col-md-6 icon-box">
+                  <i class='bx bxs-clinic'></i>
+                  <h4>Know Treatment Center Near you</h4>
+                  <p> We can locate Treatment centers nearby for learning Braille/ sign language and getting help.
+                  </p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class='bx bxs-shopping-bag'></i>
+                  <h4>Find Jobs</h4>
+                  <p>Find Jobs easily at our website. Find jobs through categorized options
+                  </p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class='bx bxs-book-alt'></i>
+                  <h4>Offer Jobs</h4>
+                  <p>You can offer and jobs through the website. The "Offer Jobs" component will be done through google
+                    forms and be displayed in the website as a table
+                  </p>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class='bx bxs-bookmark-alt'></i>
+                  <h4>Learning</h4>
+                  <p> We will put awareness and youtube videos to show the basics of languages like braille and sign
+                    language</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Learn</h2>
+          <p>Learn more about these Disablities by clicking on them</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/ios-glyphs/0/5C9F24/blind.png" /></div>
+            <h4 class="title"><a href="Blind_Inner.html">Blindness</a></h4>
+            <p class="description">Blindness is a lack of vision.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/ios/50/5C9F24/not-hearing.png" /></div>
+            <h4 class="title"><a href="Deaf-ed.html">Deafness</a></h4>
+            <p class="description">Total or significant loss of hearing.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/ios-filled/50/5C9F24/wheelchair.png" /></div>
+            <h4 class="title"><a href="paralyzed-ed.html">Paralysis </a></h4>
+            <p class="description">Complete or partial loss of muscle function.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/ios-glyphs/50/5C9F24/autism.png" /></div>
+            <h4 class="title"><a href="autism-ed.html">Autism</a></h4>
+            <p class="description">A serious developmental disorder that impairs the ability to communicate and
+              interact.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/material-rounded/50/5C9F24/read.png" /></div>
+            <h4 class="title"><a href="dyslexia-ed.html"> Dyslexia</a></h4>
+            <p class="description">Dyslexia is a learning disorder that involves difficulty reading due to problems identifying speech sounds and learning how they relate to letters and words (decoding).
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="https://img.icons8.com/material-rounded/50/5C9F24/alzheimer.png" /></div>
+            <h4 class="title"><a href="demetia-ed.html">Dementia</a></h4>
+            <p class="description">Dementia is a general term for loss of memory, language, problem-solving and other thinking abilities that are severe enough to interfere with daily life.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Treatment Centers</h2>
+          <p>Know Treatment centers near you</p>
+        </div>
+
+        <div class="container mt-2">
+          <!--   <div class="card card-block mb-2">
+              <h4 class="card-title">Card 1</h4>
+              <p class="card-text">Welcom to bootstrap card styles</p>
+              <a href="#" class="btn btn-primary">Submit</a>
+            </div>   -->
+
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="card card-block">
+                <h4 class="card-title text-right"></h4>
+                <img
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  class="car_img" alt="Photo of sunset">
+                <h5 class="card-title mt-3 mb-3">Treatment Center Name</h5>
+                <p class="card-text">Phone: +917489922914<br>
+                  Email: example@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card card-block cd">
+                <h4 class="card-title text-right"></h4>
+                <img
+                  src="https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  class="car_img" alt="Photo of sunset">
+                <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                <p class="card-text">Phone: +917489922914<br>
+                  Email: example@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card card-block">
+                <h4 class="card-title text-right"></h4>
+                <img
+                  src="https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  class="car_img" alt="Photo of sunset">
+                <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                <p class="card-text">Phone: +917489922914<br>
+                  Email: example@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card card-block">
+                <h4 class="card-title text-right"></h4>
+                <img
+                  src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
+                  class="car_img" alt="Photo of sunset">
+                <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                <p class="card-text">Phone: +917489922914<br>
+                  Email: example@gmail.com</p>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <!--   <div class="card card-block mb-2">
+                  <h4 class="card-title">Card 1</h4>
+                  <p class="card-text">Welcom to bootstrap card styles</p>
+                  <a href="#" class="btn btn-primary">Submit</a>
+                </div>   -->
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1481253127861-534498168948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1467803738586-46b7eb7b16a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1461695008884-244cb4543d74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1542361345-89e58247f2d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-2">
+              <!--   <div class="card card-block mb-2">
+                      <h4 class="card-title">Card 1</h4>
+                      <p class="card-text">Welcom to bootstrap card styles</p>
+                      <a href="#" class="btn btn-primary">Submit</a>
+                    </div>   -->
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1470723710355-95304d8aece4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1453284441168-8780c9f52097?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card card-block">
+                    <h4 class="card-title text-right"></h4>
+                    <img
+                      src="https://images.unsplash.com/photo-1484861671664-4ebd42ced711?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      class="car_img" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3">Treatment Center Name</h5>
+                    <p class="card-text">Phone: +917489922914<br>
+                      Email: example@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+
+        <div class="section-title">
+          <h2>Offer Jobs</h2>
+          <p>Contribute by offering jobs</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-4 col-lg-4 col-md-6">
+
+            <div class="member">
+              <img
+                src="https://images.pexels.com/photos/7695399/pexels-photo-7695399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Blind</h4>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScVG6aAQh4KRpjwdi25OeVTvi2cwoTYfmG6OnJ76eYHZs7TZQ/viewform?usp=sf_link"
+                    target="_blank"><span>Offer jobs for Blind People!!</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-xl-4 col-lg-4 col-md-6">
+
+            <div class="member">
+              <img
+                src="https://media.gettyimages.com/photos/senior-businessman-listening-with-hand-cupped-to-ear-closeup-picture-id200355536-002?k=6&m=200355536-002&s=612x612&w=0&h=TYzEpYgUSxrDDNFjkPrzaiRJfzT_JPlAVAe0HDf3EiQ="
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Deaf</h4>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScD6Gt2i4lqrj5ZQluR4m_SN2YQiMa5Tu9g4cY3ykoswneUAQ/viewform?usp=sf_link"
+                    target="_blank">
+
+                    <span>Offer jobs for Deaf People!!</span></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="col-xl-4 col-lg-3 col-md-6">
+
+            <div class="member">
+              <img
+                src="https://media.gettyimages.com/photos/young-man-in-wheelchair-on-jetty-by-a-lake-picture-id523437532?k=6&m=523437532&s=612x612&w=0&h=DQA7-G0vaniKqyTr8e68StcHwSkY0sBXx0xOyoggiK8="
+                class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Paralyzed</h4>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMDW4x8h39GGfe16JgEzOwq-hoAPLivwMTNqdV6wmjkBzBvg/viewform?usp=sf_link"
+                    target="_blank">
+                    <span>Offer jobs for Paralyzed People!!</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row">
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+
+              <div class="member">
+                <img src="52298541-cd3d-438a-8ad2-aafe58805bff.jpeg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Autism</h4>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf43Dq0tdINsQvDELzUdxx6qttjfMyQAuP-WwihW8RMylpcEw/viewform?usp=sf_link"
+                      target="_blank"><span>Offer jobs for Autistic People!!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-4 col-md-6" style="margin-left: -1px;">
+
+              <div class="member">
+                <img src="Dylexia.jpeg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Dyslexia</h4>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmdbQB30OHVNFVNkEIX1HTfxkrzYxX-ysS9YllkTido1YP0g/viewform?usp=sf_link"
+                      target="_blank">
+
+                      <span>Offer jobs for Dyslexic People!!</span></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="col-xl-4 col-lg-3 col-md-6">
+
+              <div class="member">
+                <img src="Dementia Image.jpeg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Dementia</h4>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMDW4x8h39GGfe16JgEzOwq-hoAPLivwMTNqdV6wmjkBzBvg/viewform?usp=sf_link"
+                      target="_blank">
+                      <span>Offer jobs for People with Dementia!!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section><!-- End Team Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us!</p>
+        </div>
+
+        <div class="row contact-info" id="test">
+
+
+
+          <div class="col-md-6">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+917489922916">+91 385 407 5865
+                </a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:empowerwebsite8907@gmail.com">empowerwebsite8907@gmail.com
+                </a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form"><-->
+          <form action="https://formspree.io/f/mvodnnre" method="POST">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email">
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+
+              <div class="error-message"></div>
+            </div>
+            <div class="text-center"><button type="submit" style='color:white;background-color:#5c9f24;'
+                class="btn">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Sharanya Tiwari</h3>
+
+              <strong>Phone:</strong> +91 385 407 5865
+              <br>
+              <strong>Email:</strong> empowerwebsite8907@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/groovin-free-bootstrap-theme/ -->
+        Created by <strong><span>Sharanya Tiwari</span></strong> for 18u18 Fellowship - WhitehatJr
+        <br>
+        Designed with <a href=" https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
+      </div>
+      <!--<div class="copyright">
+        &copy; Copyright <strong><span>Groovin</span></strong>. All Rights Reserved
+      </div>-->
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="popup" class="popupfloat">
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Kw7eRRptbOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    <iframe allow="microphone;" width="300" height="380"
+      src="https://console.dialogflow.com/api-client/demo/embedded/9f46ebd2-4e41-43b9-9d6a-a195d2c86686">
+    </iframe>
+  </div>
+  <!--<button>Click Me</button>-->
+
+  <div id="bot">
+    <a class="float" onclick="test()">
+      <img src="chat-solid-72.png" style="width: 45; margin-top: 10px; margin-right: 2px;">
+    </a>
+    <div class="label-container">
+      <div class="label-text">Seek Mental Health Advice</div>
+      <i class="fa fa-play label-arrow"></i>
+    </div>
+  </div>
+
+  <script>
+    const bot = document.querySelector('#bot');
+    const popup = document.querySelector('#popup');
+
+    // button.addEventListener('click', () => {
+    //     popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+    // })
+
+    function test() {
+      console.log("Here 1" + popup.style.display);
+      popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+    }
+  </script>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
